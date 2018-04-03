@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+body div {
+    position: absolute;
+}
+
+#game, #ui, #touch {
+    height: 100%;
+    width: 100%;
+}
+
+// Ui
+#fps {
+    
+}
+
+// Game
+#ground {
+    background-color: rgba(255,0,0,0.7);
+    height: 100%;
+    width: 100%;
+}
+
+#player {
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+}
