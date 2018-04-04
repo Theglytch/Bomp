@@ -26,6 +26,7 @@ function Player(game) {
     this.update=function(){
         var collide = $("#player").collision(".rigid");
         console.log(collide);
+        alert(collide);
     }
 }
 
